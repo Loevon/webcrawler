@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crawler-service/crawler-service.iml" filepath="$PROJECT_DIR$/.idea/modules/crawler-service/crawler-service.iml" group="crawler-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crawler-service/crawler-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crawler-service/crawler-service_main.iml" group="crawler-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crawler-service/crawler-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crawler-service/crawler-service_test.iml" group="crawler-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-crawler/crawler-web-crawler.iml" filepath="$PROJECT_DIR$/.idea/modules/web-crawler/crawler-web-crawler.iml" group="web-crawler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crawler~1.iml" filepath="$PROJECT_DIR$/.idea/modules/crawler~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-crawler_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web-crawler_main.iml" group="web-crawler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-crawler_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web-crawler_test.iml" group="web-crawler" />
+    </modules>
+  </component>
+</project>
