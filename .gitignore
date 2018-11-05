@@ -1,0 +1,6 @@
+/crawler-service/.DS_Store
+.DS_Store
+.gradle/*
+/web-crawler/build/*
+/web-crawler/out/*
+.idea/*
