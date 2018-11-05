@@ -20,7 +20,9 @@ public class CrawlerService {
         this.entryEndpoint = "";
     }
 
-    // temp starter
+    /**
+     * Initates the web-crawler
+     */
     @EventListener(ApplicationReadyEvent.class)
     public void start() {
         if(this.spider == null) {
@@ -34,6 +36,9 @@ public class CrawlerService {
         }
     }
 
+    /**
+     * Sets the state of the spider back to default
+     */
     public void resetSpider() {
         this.spider = new Spider();
     }

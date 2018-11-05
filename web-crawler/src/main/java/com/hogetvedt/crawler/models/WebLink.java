@@ -2,6 +2,9 @@ package com.hogetvedt.crawler.models;
 
 import lombok.Data;
 
+/*
+    WebLink - Data model that represents a URL and its status code
+ */
 @Data
 public class WebLink {
     private String url;

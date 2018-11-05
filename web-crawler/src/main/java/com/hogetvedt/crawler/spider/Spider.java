@@ -35,6 +35,9 @@ public class Spider {
         this.failedRequests = 0;
     }
 
+    /*
+        Initiates the crawl by taking in an entry point, parses them as initial URL links, and then begins the crawl.
+     */
     public void initiateCrawl(String entryEndpoint) throws Exception {
         // check initial URL for validity
         if(null == entryEndpoint || entryEndpoint.equals("")) {
@@ -61,6 +64,9 @@ public class Spider {
         printResults(); // displays the final results to the chat log
     }
 
+    /*
+        Main crawl method that visits a given link, and scrapes for any other links found on the page
+     */
     @Async
     public void crawl(WebLink link) throws SpiderException {
         if(link != null && (link.getUrl() == null || link.getUrl().equals(""))) {
@@ -93,7 +99,9 @@ public class Spider {
         }
     }
 
-    // enqueues a new web for the spider to crawl on
+    /*
+        Enqueues a new web link for the spider to crawl on
+     */
     private void enqueueIfUnique(String url) {
         if(!vistedLinks.contains(url)) {   // if the url has not yet been seen
             WebLink link = new WebLink(url);
@@ -101,7 +109,9 @@ public class Spider {
         }
     }
 
-    // parses the entry point links
+    /*
+        Parses the inital entry point links
+     */
     private void parseEntryEndpoint(String entryEndpoint) throws SpiderException {
         JSONObject json = null;
 

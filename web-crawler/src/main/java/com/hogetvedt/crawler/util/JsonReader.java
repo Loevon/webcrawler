@@ -11,8 +11,10 @@ import java.nio.charset.Charset;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-
-// FROM: https://stackoverflow.com/questions/4308554/simplest-way-to-read-json-from-a-url-in-java
+/*
+    Library file, used in reading JSON from raw string data.
+    FROM: https://stackoverflow.com/questions/4308554/simplest-way-to-read-json-from-a-url-in-java
+ */
 public class JsonReader {
 
     private static String readAll(Reader rd) throws IOException {
@@ -35,10 +37,4 @@ public class JsonReader {
             is.close();
         }
     }
-
-//    public static void main(String[] args) throws IOException, JSONException {
-//        JSONObject json = readJsonFromUrl("https://graph.facebook.com/19292868552");
-//        System.out.println(json.toString());
-//        System.out.println(json.get("id"));
-//    }
 }
